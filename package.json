@@ -1,6 +1,6 @@
 {
   "name": "node-steam-friends",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Minimal implementation of a friends module for `node-steam`",
   "engines": {
     "node": "^4.1"

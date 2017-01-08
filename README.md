@@ -45,7 +45,7 @@ For example, `Object.keys(steamClient.chatRooms[chatID])` will return an array o
 
 ### friends
 
-An object that maps users' SteamIDs to their `EFriendRelationship` with you. Empty until ['relationships'](#relationships) is emitted. ['friend'](#friend) is emitted before this object changes.
+An object that maps users' SteamIDs to their `EFriendRelationship` with you. Empty until ['relationships'](#relationships) is emitted. ['friend'](#friend) is emitted before this object changes. Current friends have an `EFriendRelationship` value of `3`, pending friend requests have an `EFriendRelationship` of `2`. There are other values, [documented here](https://github.com/SteamRE/SteamKit/blob/master/Resources/SteamLanguage/enums.steamd#L66).
 
 ### groups
 
